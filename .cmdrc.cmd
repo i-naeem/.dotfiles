@@ -9,6 +9,4 @@ doskey ps=tasklist $*
 doskey empty=type nul ^> $*
 doskey grep=findstr /spin $*
 doskey kill=taskkill /f /im $*
-doskey conda=%USERPROFILE%\anaconda3\Scripts\activate.bat
-
-
+doskey anaconda=%USERPROFILE%\anaconda3\Scripts\activate.bat
